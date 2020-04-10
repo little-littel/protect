@@ -161,7 +161,6 @@ export class Snake extends Laya.Sprite {
             body.rotation = r
 
             this.game.gameMainUI.map.addChild(body)
-
             body.visible = true
             body.alpha = 1
         }))
